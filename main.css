@@ -1,24 +1,40 @@
 
 :root{
-    --black-color: greenyellow;
-    --tomoto-color:skyblue;
+    --black-color: #000000;
+    --white-color: #ffffff;
+    --gray-color: #d9d9d9;
+    --main-color: #ff6347;
+}
+*{
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
 }
 
-
-
 .firstsection{
-    border: 2px solid tomato;
+    border: 2px solid #ff6347;
     display: flex;
+    height: 460px;
 }
 .firstsection-leftdiv{
     border: 2px solid black;
     height: 460px;
     width: 50%;
-    background: var(--tomoto-color);
+    padding: 20px;
+  
 }
+.line{
+    background: var(--main-color);
+    height: 16px;
+    width: 224px;
+}
+.logotext span{
+    color: var(--main-color);
+}
+
 .firstsection-rightdiv{
     border: 2px solid purple;
     height: 460px;
     width: 50%;
-    background: var(--black-color);
+     
 }
