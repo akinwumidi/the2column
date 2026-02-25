@@ -1,0 +1,24 @@
+
+:root{
+    --black-color: greenyellow;
+    --tomoto-color:skyblue;
+}
+
+
+
+.firstsection{
+    border: 2px solid tomato;
+    display: flex;
+}
+.firstsection-leftdiv{
+    border: 2px solid black;
+    height: 460px;
+    width: 50%;
+    background: var(--tomoto-color);
+}
+.firstsection-rightdiv{
+    border: 2px solid purple;
+    height: 460px;
+    width: 50%;
+    background: var(--black-color);
+}
