@@ -4,6 +4,7 @@
     --white-color: #ffffff;
     --gray-color: #d9d9d9;
     --main-color: #ff6347;
+    --tomato-linear-gradient: linear-gradient(90deg, rgba(255, 99, 71,0.4) 0%, rgba(235, 77, 49,0.4) 100%);
 }
 *{
     box-sizing:border-box;
@@ -31,10 +32,29 @@
 .logotext span{
     color: var(--main-color);
 }
+.logotext{
+    margin: 0 0 20px 0;
+}
+.firstsection-leftdiv p{
+    margin: 20px 0 20px 0;
+}
+
+
+
 
 .firstsection-rightdiv{
     border: 2px solid purple;
     height: 460px;
     width: 50%;
-     
+    background: var(--tomato-linear-gradient), url(images/image1.jpg);
+    background-size: cover;
+    background-position: bottom left; 
+
+
+
+
+    /* background: url(images/dots.png); */
+    /* background-repeat: no-repeat; */
+    /* background-position: bottom left; */
+    /* background-size: contain; */
 }
