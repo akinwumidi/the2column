@@ -27,4 +27,15 @@
     /* .secondsection{
         flex-direction: column;
     } */
+
+    .thirdsection{
+        flex-direction: column-reverse;
+        align-items: center;
+        gap:30px;
+    }
+    /* .thirdsection-leftdiv{
+        margin: 30px 0 0 0;
+    } */
+
+
 }
