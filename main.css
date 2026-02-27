@@ -82,6 +82,7 @@
     width:310px;
     height: 400px;
     padding: 40px 25px;
+    background: var(--gray-color);
 }
 .secondsection-leftdiv p{
     margin: 10px 0;
@@ -96,3 +97,31 @@
     height: 100%;
 }
 /* Second section ends here */
+
+/* Third section starts here */
+.thirdsection{
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+    background: var(--gray-color);
+}
+.thirdsection-leftdiv,.thirdsection-rightdiv{
+    height: 460px;
+    width: 340px;
+}
+
+.thirdsection-leftdiv{
+    border: 2px solid tomato;
+    background: url(images/image3.jpg);
+    background-size: cover;
+}
+.thirdsection-rightdiv{
+    border: 2px solid purple;
+    background: var(--main-color);
+    padding: 40px 25px;
+}
+.thirdsection-rightdiv p{
+    margin: 10px 0;
+}
+/* Third section ends here */
