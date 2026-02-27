@@ -126,3 +126,24 @@
     margin: 10px 0;
 }
 /* Third section ends here */
+
+/* footer section starts here */
+footer{
+    border:2px solid tomato;
+    padding: 20px;
+    background: var(--main-color);
+    color: var(--white-color);
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.copyright{
+    border:2px solid black;
+}
+.icon-holder{
+    border:2px solid purple;
+    /* width:200px;
+    height: 30px; */
+    font-size: 25px;
+}
+/* footer section ends here */
